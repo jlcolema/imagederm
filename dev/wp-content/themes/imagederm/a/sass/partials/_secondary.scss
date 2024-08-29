@@ -1,0 +1,59 @@
+
+/*-------------------------------------------
+	Secondary
+-------------------------------------------*/
+
+
+#secondary {
+
+	margin: 40px 0 0 0;
+	padding: 35px 0 0 0;
+	border-top: 1px solid rgb(216, 216, 216);
+	@include box-shadow(0 1px 0 rgb(255, 255, 255) inset);
+
+	@media screen and (min-width: 800px) {
+
+		margin: 0;
+		padding: 0;
+		border: none;
+		@include box-shadow(none);
+
+	}
+
+}
+
+	/* Secondary Navigation */
+
+	.secondary-nav {
+
+		margin: 0 0 20px 0;
+
+		.title {}
+
+		ul {
+
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+		}
+
+			li {
+
+				margin-bottom: (19/14) + em;
+
+				&:last-of-type {
+
+					margin: 0;
+
+				}
+
+			}
+
+				a {
+
+					&:hover {}
+
+				}
+
+	}

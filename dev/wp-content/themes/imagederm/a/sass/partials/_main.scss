@@ -1,0 +1,706 @@
+
+/*-------------------------------------------
+	Main
+-------------------------------------------*/
+
+
+#main {}
+
+	/* Page Title */
+
+	h1 {
+
+		#home & {
+
+			margin-bottom: (24/24) + em;
+			@include font-size(24);
+			line-height: (28/24) + em;
+
+		}
+
+	}
+
+	.content {
+
+		.single-product & {
+
+			@media screen and (min-width: 800px) {
+
+				padding: 0 0 0 20px;
+
+			}
+
+		}
+
+	}
+
+		#breadcrumbs {
+
+			margin: 0 0 15px 0;
+			color: rgb(20, 47, 114);
+
+			@media screen and (min-width: 800px) {
+
+				margin: 0 0 15px 40%;
+				padding: 0 0 0 20px;
+
+			}
+
+			a {
+
+				&:hover {
+
+					text-decoration: underline;
+
+				}
+
+			}
+
+			.separator {
+
+				color: rgb(34, 34, 34);
+
+			}
+
+		}
+
+		/* Views */
+
+		.views {
+
+			margin: 40px 0 0 0;
+
+			ul {
+
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-align: justify;
+				@include placeholder;
+
+			}
+
+				li {
+
+					display: inline-block;
+					width: 47%;
+					margin: 0 0 20px 0;
+					text-align: left;
+					border: 1px solid rgb(200, 200, 200);
+					@include border-radius(5px);
+					overflow: hidden;
+
+					@media screen and (min-width: 640px) {
+
+						width: 22%;
+
+					}
+
+				}
+
+					img {
+
+						@include border-radius(5px);
+
+					}
+
+		}
+
+		.product-manuals {
+
+			margin: 30px 0 0 0;
+
+			ul {
+
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-align: justify;
+				@include placeholder;
+
+			}
+
+				li {
+
+					display: inline-block;
+					width: 47%;
+					margin: 0 0 25px 0;
+					text-align: left;
+					background: $white;
+					border: 1px solid rgb(171, 227, 244);
+					@include border-radius(5px);
+					@include box-shadow(0 1px 2px rgba(0, 0, 0, 0.11));
+					vertical-align: top;
+					overflow: hidden;
+
+					@media screen and (min-width: 640px) {
+
+						width: 31%;
+
+					}
+
+					@media screen and (min-width: 800px) {
+
+						width: 47%;
+
+					}
+
+					@media screen and (min-width: 960px) {
+
+						width: 31%;
+
+					}
+
+				}
+
+					a {
+
+						&:hover {}
+
+					}
+
+						.photo {
+
+							border-bottom: 7px solid rgb(20, 47, 114);
+
+						}
+
+							img {}
+
+						.details {
+
+							padding: 10px;
+
+						}
+
+							h3 {
+
+								margin-bottom: (5/14) + em;
+								@include font-size(14);
+								line-height: (19/14) + em;
+
+							}
+
+							p {
+
+								margin: 0;
+
+							}
+
+		}
+
+		/* FAQs */
+
+		.faqs {
+
+			ol {
+
+				margin: 30px 0 0 0;
+				padding: 0;
+				list-style: none;
+				counter-reset: li;
+
+			}
+
+				li {
+
+					padding: 25px 0;
+					border-bottom: 1px solid rgb(216, 216, 216);
+
+					&:first-of-type {
+
+						border-top: 1px solid rgb(216, 216, 216);
+
+					}
+
+					&:last-of-type {
+
+						padding-bottom: 10px;
+						border: none;
+
+					}
+
+				}
+
+					.question {
+
+						margin-bottom: (20/20) + em;
+						@include font-size(20);
+						line-height: (24/20) + em;
+						@include russo-normal;
+						color: rgb(20, 47, 114);
+
+						&:before {
+
+							content: counter(li)". ";
+							counter-increment: li;
+
+						}
+
+					}
+
+					.answer {
+
+						p {
+
+							&:last-of-type {
+
+								margin: 0;
+
+							}
+
+						}
+
+					}
+
+		}
+
+		/* Map */
+
+		.map {
+
+			margin: 0 0 20px 0;
+
+			iframe {
+
+				width: 100%;
+				height: 250px;
+
+			}
+
+		}
+
+		/* Hero */
+
+		.hero {
+
+			max-width: 50%;
+			margin: 0 auto 20px auto;
+
+			@media screen and (min-width: 600px) {
+
+				max-width: 33%;
+
+			}
+
+			@media screen and (min-width: 800px) {
+
+				position: relative;
+				float: left;
+				width: 68%;
+				max-width: 100%;
+				margin: 0 0 0 -73%;
+
+			}
+
+		}
+
+		/* Additional Notes */
+
+		.additional-notes {
+
+			padding: 0 0 35px 0;
+
+			h2 {
+
+				margin-bottom: (16/16) + em;
+				@include font-size(16);
+				line-height: (20/16) + em;
+
+			}
+
+			ul {
+
+				margin: 0;
+
+			}
+
+				li {}
+
+		}
+
+		/* Supplies */
+
+		.supplies {
+
+			margin: 30px 0 0 0;
+
+			ul {
+
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				// text-align: justify;
+				// @include placeholder;
+
+			}
+
+				li {
+
+					// display: inline-block;
+					// width: 47%;
+					// margin: 0 0 25px 0;
+					padding: 30px 0;
+					text-align: left;
+					// background: $white;
+					// border: 1px solid rgb(171, 227, 244);
+					border-bottom: 1px solid rgb(216, 216, 216);
+					// @include border-radius(5px);
+					// @include box-shadow(0 1px 2px rgba(0, 0, 0, 0.11));
+					vertical-align: top;
+					overflow: hidden;
+					@include group;
+
+					&:first-of-type {
+
+						padding-top: 0;
+
+					}
+
+					&:last-of-type {
+
+						border: none;
+
+					}
+
+					@media screen and (min-width: 640px) {}
+
+				}
+
+					.photo {
+
+						display: inline-block;
+						margin: 0 0 25px 0;
+						@include border-radius(5px);
+						@include box-shadow(0 1px 2px rgba(0, 0, 0, 0.11));
+						overflow: hidden;
+
+						// border-bottom: 7px solid rgb(20, 47, 114);
+
+						@media screen and (min-width: 540px) {
+
+							float: left;
+							width: 30%;
+							margin: 0;
+
+						}
+
+					}
+
+						img {}
+
+					.details {
+
+						@media screen and (min-width: 540px) {
+
+							float: left;
+							width: 70%;
+							padding: 0 0 0 20px;
+
+						}
+
+						@media screen and (min-width: 700px) {
+
+							padding: 0 0 0 30px;
+
+						}
+
+					}
+
+						h2 {
+
+							margin-bottom: (5/14) + em;
+							@include font-size(14);
+							line-height: (19/14) + em;
+
+						}
+
+						p {}
+
+						.more {
+
+							// text-align: center;
+
+							a {
+
+								display: inline-block;
+								padding: 10px 20px;
+								@include font-size(14);
+								line-height: (19/14) + em;
+								font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+								color: $white;
+								background: rgb(54, 96, 197);
+								@include border-radius(3px);
+
+								&:hover {}
+
+							}
+
+						}
+
+		}
+
+		/* Form */
+
+		.form {
+
+			.gform_heading {}
+
+				.gform_description {}
+
+			.gform_body {}
+
+				.gform_fields {
+
+					margin: 0;
+					padding: 0;
+					list-style: none;
+
+				}
+
+					.gfield {
+
+						margin: 0 0 20px 0;
+
+					}
+
+					#field_1_1 {
+
+						@media screen and (min-width: 540px) {
+
+							float: left;
+							width: 50%;
+							padding: 0 20px 0 0;
+
+						}
+
+					}
+
+					#field_1_2 {
+
+						@media screen and (min-width: 540px) {
+
+							float: right;
+							width: 50%;
+							padding: 0 0 0 20px;
+
+						}
+
+					}
+
+					#field_1_3 {
+
+						@media screen and (min-width: 540px) {
+
+							clear: both;
+
+						}
+
+					}
+
+						.gfield_label {}
+
+						.ginput_container {
+
+							input {}
+
+							textarea {}
+
+						}
+
+			.gform_footer {
+
+				@include group;
+
+			}
+
+				.gform_button {
+
+					float: right;
+
+				}
+
+		}
+
+		/* Map */
+
+		.map {}
+
+		/* vCard */
+
+		.vcard {
+
+			padding: 0 0 0 20px;
+
+			.n {
+
+				display: none;
+
+			}
+
+			.adr {
+
+				margin: 0 0 20px 0;
+
+			}
+
+				.street-address {
+
+					position: relative;
+
+					&:before {
+
+						position: absolute;
+						left: -20px;
+						top: 2px;
+						content: "";
+						width: 16px;
+						height: 16px;
+						background: url(../img/icons.svg);
+
+					}
+
+				}
+
+				.locality {}
+
+				.region {}
+
+				.postal-code {}
+
+			.tel {
+
+				position: relative;
+
+				&:before {
+
+					position: absolute;
+					left: -20px;
+					top: 2px;
+					content: "";
+					width: 16px;
+					height: 16px;
+					background: url(../img/icons.svg) -16px 0;
+
+				}
+
+			}
+
+			.toll-free {
+
+				margin: 0 0 20px 0;
+
+			}
+
+			.email {
+
+				position: relative;
+
+				&:before {
+
+					position: absolute;
+					left: -20px;
+					top: 1px;
+					content: "";
+					width: 16px;
+					height: 16px;
+					background: url(../img/icons.svg) -32px 0;
+
+				}
+
+				a {
+
+					color: rgb(68, 68, 68);
+
+					&:hover {
+
+						text-decoration: underline;
+
+					}
+
+				}
+
+			}
+
+		}
+
+	.training-video {
+
+		figure {}
+
+			iframe {}
+
+			figcaption {
+
+				margin: 15px 0 0 0;
+
+			}
+
+				p {
+
+					margin: 0;
+					@include russo-normal;
+
+				}
+
+	}
+
+	/* Financing Available */
+
+	.financing-available {
+
+		p {
+
+			@include russo-normal;
+			text-transform: uppercase;
+			color: rgb(20, 47, 114);
+
+		}
+
+		ul {
+
+			margin: 0 0 20px 0;
+			padding: 0;
+			list-style: none;
+			@include group;
+
+		}
+
+			li {
+
+				float: left;
+				width: 55px;
+				height: 36px;
+				margin: 0 8px 0 0;
+				background: url(../img/financing-options.png);
+				@include hide-text;
+
+				&:last-of-type {
+
+					margin: 0;
+
+				}
+
+			}
+
+			.mastercard {}
+
+			.visa {
+
+				background-position: -55px;
+
+			}
+
+			.american-express {
+
+				background-position: -110px;
+
+			}
+
+			.discover {
+
+				background-position: -165px;
+
+			}
+
+	}

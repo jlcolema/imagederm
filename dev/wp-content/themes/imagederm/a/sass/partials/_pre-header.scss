@@ -1,0 +1,106 @@
+
+/*-------------------------------------------
+	Pre-Header
+-------------------------------------------*/
+
+
+#pre-header {
+
+	height: 40px;
+	@include font-size(12);
+	line-height: (16/12) + em;
+	color: $white;
+	background: rgb(9, 34, 94);
+	border-bottom: 1px solid rgb(1, 13, 41);
+	@include box-shadow(0 -1px 0 rgb(37, 70, 153) inset);
+	@include vertical(rgb(9, 34, 94), rgb(5, 27, 82));
+
+	.wrap {
+
+		@include group;
+
+	}
+
+}
+
+		.toll-free-number {
+
+			float: left;
+
+			p {
+
+				margin: 0;
+				padding: 12px 0 0 0;
+
+			}
+
+				span {}
+
+				a {
+
+					color: $white;
+
+					&:hover {}
+
+				}
+
+		}
+
+		.social {
+
+			float: right;
+
+			ul {
+
+				margin: 5px 0 0 0;
+				padding: 0;
+				list-style: none;
+				@include group;
+
+			}
+
+				li {
+
+					float: left;
+					margin: 0 0 0 5px;
+					@include hide-text;
+
+				}
+
+					a {
+
+						display: block;
+						width: 30px;
+						height: 30px;
+						color: $white;
+						background: url(../img/social.svg);
+
+						&:hover {}
+
+					}
+
+				// Specific Service
+
+				.facebook {
+
+					a {
+
+						&:hover {}
+
+					}
+
+				}
+
+				.twitter {
+
+					a {
+
+						background-position: -30px 0;
+
+						&:hover {}
+
+					}
+
+				}
+
+		}

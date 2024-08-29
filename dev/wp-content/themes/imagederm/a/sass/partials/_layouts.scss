@@ -1,0 +1,145 @@
+
+/*-------------------------------------------
+	Layouts
+-------------------------------------------*/
+
+
+html {}
+
+body {}
+
+	#header {}
+
+	#content {
+
+		padding: 25px 0;
+
+		background: rgb(242, 242, 242) url(../img/background.png) right 30px no-repeat;
+
+		@media screen and (min-width: 800px) {
+
+			padding: 40px 0 25px 0;
+
+		}
+
+		.wrap {
+
+			@media screen and (min-width: 800px) {
+
+				@include group;
+
+			}
+
+		}
+
+	}
+
+		#main {
+
+			@media screen and (min-width: 800px) {
+
+				float: left;
+				width: 60%;
+				padding: 0 20px 0 0;
+
+			}
+
+			#products &,
+			#supplies & {
+
+				@media screen and (min-width: 800px) {
+
+					float: none;
+					width: 100%;
+					padding: 0;
+
+				}
+
+			}
+
+			.page-template-default & {
+
+				@media screen and (min-width: 800px) {
+
+					width: 70%;
+					padding: 0 20px 0 0;
+
+				}
+
+			}
+
+			#home & {
+
+				@media screen and (min-width: 800px) {
+
+					float: right;
+					width: 50%;
+					padding: 0 0 0 20px;
+
+				}
+
+			}
+
+			.single-product & {
+
+				@media screen and (min-width: 800px) {
+
+					float: none;
+					width: 100%;
+					padding: 0 0 0 20px;
+					padding: 0 0 0 40%;
+
+				}
+
+			}
+
+		}
+
+		#secondary {
+
+			@media screen and (min-width: 800px) {
+
+				float: right;
+				width: 40%;
+				padding: 10px 0 0 20px;
+
+			}
+
+			#home & {
+
+				@media screen and (min-width: 800px) {
+
+					float: left;
+					width: 50%;
+					padding: 10px 20px 0 0;
+
+				}
+
+			}
+
+			.page-template-default & {
+
+				@media screen and (min-width: 800px) {
+
+					width: 30%;
+					padding: 10px 0 0 20px;
+
+				}
+
+			}
+
+			.single-product & {
+
+				@media screen and (min-width: 800px) {
+
+					float: left;
+					width: 40%;
+					padding: 10px 20px 0 0;
+
+				}
+
+			}
+
+		}
+
+	#footer {}

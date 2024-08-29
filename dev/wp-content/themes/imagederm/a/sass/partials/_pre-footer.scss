@@ -1,0 +1,95 @@
+
+/*-------------------------------------------
+	Pre-Footer
+-------------------------------------------*/
+
+
+#pre-footer {
+
+	padding: 40px 0;
+	border-top: 10px solid rgb(35, 68, 146);
+	background: rgb(9, 34, 94);
+	@include vertical(rgb(9, 34, 94), rgb(5, 27, 82));
+
+	.wrap {}
+
+}
+
+		.links {
+
+			ul {
+
+				margin: 0;
+				padding: 0;
+				list-style: none;
+
+				@media screen and (min-width: 660px) {
+
+					text-align: center;
+
+				}
+
+			}
+
+				li {
+
+					margin-bottom: (19/14) + em;
+
+					@media screen and (min-width: 660px) {
+
+						display: inline-block;
+						margin: 0 20px;
+
+					}
+
+					@media screen and (min-width: 800px) {
+
+						margin: 0 40px;
+
+					}
+
+					@media screen and (min-width: 900px) {
+
+						margin: 0 60px;
+
+					}
+
+					&:last-of-type {
+
+						margin: 0;
+
+						@media screen and (min-width: 660px) {
+
+							margin: 0 20px;
+
+						}
+
+						@media screen and (min-width: 800px) {
+
+							margin: 0 40px;
+
+						}
+
+						@media screen and (min-width: 900px) {
+
+							margin: 0 60px;
+
+						}
+
+					}
+
+				}
+
+					a {
+
+						color: rgb(158, 195, 255);
+
+						&:hover {
+
+							text-decoration: underline;
+
+						}
+
+					}
+
+		}

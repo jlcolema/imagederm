@@ -1,0 +1,433 @@
+
+/*-------------------------------------------
+	Header
+-------------------------------------------*/
+
+
+#header {
+
+	position: relative;
+	// border-bottom: 1px solid rgb(144, 159, 195);
+	border-bottom: 7px solid rgb(212, 55, 80);
+	background: rgb(20, 47, 114);
+
+	// Border colors
+
+	#about & {
+
+		border-bottom: 7px solid rgb(240, 115, 219);
+
+	}
+
+	#what-is-microdermabrasion & {
+
+		border-bottom: 7px solid rgb(252, 157, 84);
+
+	}
+
+	#product-manuals & {
+
+		border-bottom: 7px solid rgb(251, 114, 91);
+
+	}
+
+	#testimonials & {
+
+		border-bottom: 7px solid rgb(145, 85, 204);
+
+	}
+
+	#products & {
+
+		border-bottom: 7px solid rgb(91, 151, 70);
+
+	}
+
+	.single-product.postid-60 & {
+
+		border-bottom: 7px solid rgb(240, 115, 219);
+
+	}
+
+	.single-product.postid-58 & {
+
+		border-bottom: 7px solid rgb(252, 157, 84);
+
+	}
+
+	.single-product.postid-59 & {
+
+		border-bottom: 7px solid rgb(251, 114, 91);
+
+	}
+
+	.single-product.postid-61 & {
+
+		border-bottom: 7px solid rgb(145, 85, 204);
+
+	}
+
+	.single-product.postid-64 & {
+
+		border-bottom: 7px solid rgb(91, 151, 70);
+
+	}
+
+	.single-product.postid-63 & {
+
+		border-bottom: 7px solid rgb(99, 234, 233);
+
+	}
+
+	.single-product.postid-62 & {
+
+		border-bottom: 7px solid rgb(212, 55, 80);
+
+	}
+
+	.single-product.postid-65 & {
+
+		border-bottom: 7px solid rgb(50, 153, 216);
+
+	}
+
+	.single-product.postid-66 & {
+
+		border-bottom: 7px solid rgb(247, 233, 103);
+
+	}
+
+	@media screen and (min-width: 840px) {
+
+		padding: 20px 0;
+
+	}
+
+	#supplies & {
+
+		border-bottom: 7px solid rgb(99, 234, 233);
+
+	}
+
+	#contact & {
+
+		border-bottom: 7px solid rgb(212, 55, 80);
+
+	}
+
+	.wrap {
+
+		position: relative;
+		max-width: 980px;
+		padding: 0;
+
+	}
+
+}
+
+	#logo {
+
+		position: relative;
+		left: 15px;
+		@include hide-text;
+		z-index: 5;
+
+		a {
+
+			display: block;
+			width: 150px;
+			height: 50px;
+			background: url(../img/logo.svg) center center no-repeat;
+			background-size: 150px 32px;
+
+			@media screen and (min-width: 840px) {
+
+				width: 300px;
+				height: 64px;
+				background-size: 300px 64px;
+
+			}
+
+			&:hover {}
+
+		}
+
+	}
+
+	#nav {
+
+		@media screen and (min-width: 840px) {
+
+			position: absolute;
+			right: 10px;
+			bottom: -20px;
+			z-index: 5;
+
+		}
+
+		.toggle {
+
+			position: absolute;
+			right: 20px;
+			top: 10px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			color: $white;
+			background: url(../img/nav-toggle.svg);
+			@include hide-text;
+			cursor: pointer;
+			z-index: 5;
+
+			@media screen and (min-width: 840px) {
+
+				display: none;
+
+			}
+
+		}
+
+		ul {
+
+			display: none;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			@media screen and (min-width: 840px) {
+
+				display: block;
+				@include group;
+
+			}
+
+			&.open {
+
+				display: block;
+
+			}
+
+		}
+
+			li {
+
+				@include russo-normal;
+				border-top: 1px solid rgb(144, 159, 195);
+
+				@media screen and (min-width: 840px) {
+
+					float: left;
+					margin: 0 0 0 20px;
+					padding: 17px 0;
+					border: none;
+
+				}
+
+			}
+
+				a {
+
+					display: block;
+					height: 36px;
+					padding: 8px 20px 0 20px;
+					color: $white;
+
+					@media screen and (min-width: 840px) {
+
+						padding: 8px 10px 0 10px;
+
+					}
+
+					&:hover {
+
+						color: rgb(164, 190, 255);
+
+					}
+
+				}
+
+			// Current Page
+
+			.current-menu-item,
+			.current_page_parent {
+
+				a {
+
+					color: rgb(164, 190, 255);
+
+					&:hover {}
+
+				}
+
+			}
+
+			// Item with Subnavigation
+
+			.menu-item-has-children {
+
+				position: relative;
+
+				@media screen and (min-width: 840px) {
+
+					> a {
+
+						padding-right: 40px;
+
+					}
+
+				}
+
+			}
+
+				.subnav-toggle {
+
+					position: absolute;
+					top: 3px;
+					right: 20px;
+					width: 30px;
+					height: 30px;
+					background: url(../img/subnav-toggle.svg);
+					z-index: 5;
+					@include hide-text;
+					cursor: pointer;
+
+					@media screen and (min-width: 840px) {
+
+						width: 31px;
+						right: 0;
+						top: 50%;
+						margin-top: -15px;
+						border-left: 1px dotted $white;
+						border-left: 1px dotted rgba($white, 0.30);
+
+					}
+
+				}
+
+				.sub-menu {
+
+					display: none;
+					padding: 9px 0;
+					border-top: 1px dotted rgb(144, 159, 195);
+
+					@media screen and (min-width: 840px) {
+
+						position: absolute;
+						top: 60px;
+						left: 0;
+						padding: 0;
+						border: none;
+						background: $white;
+						@include border-radius(5px);
+						@include box-shadow(0 7px 12px rgba(0, 0, 0, 0.45));
+
+					}
+
+					&.subnav-open {
+
+						display: block;
+
+						&:before {
+
+							@media screen and (min-width: 840px) {
+
+								position: absolute;
+								top: -7px;
+								left: 36px;
+								content: "";
+								width: 14px;
+								height: 8px;
+								background: url(../img/subnav-riser.svg);
+								z-index: 5;
+
+							}
+
+						}
+
+					}
+
+					li {
+
+						border: none;
+
+						@media screen and (min-width: 840px) {
+
+							float: none;
+							width: 200px;
+							margin: 0;
+							padding: 0;
+							border-top: 1px dotted rgb(120, 120, 120);
+
+						}
+
+						&:first-of-type {
+
+							@media screen and (min-width: 840px) {
+
+								border: none;
+
+							}
+
+						}
+
+						&:last-of-type {
+
+							a {
+
+								border: none;
+
+							}
+
+						}
+
+							a {
+
+								@media screen and (min-width: 840px) {
+
+									height: auto;
+									padding: 10px;
+									color: rgb(120, 120, 120);
+
+								}
+
+								&:hover {
+
+									@media screen and (min-width: 840px) {
+
+										color: rgb(164, 190, 255);
+
+									}
+
+								}
+
+							}
+
+					}
+
+					.current-menu-item {
+
+						a {
+
+							color: rgb(164, 190, 255);
+
+							&:hover {}
+
+						}
+
+					}
+
+						a {
+
+							color: $white;
+
+							&:hover {}
+
+						}
+
+					// Current Page
+
+					.current_page_item {}
+
+				}
+
+	}

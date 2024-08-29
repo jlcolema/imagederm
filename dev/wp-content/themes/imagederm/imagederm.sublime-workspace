@@ -1,0 +1,952 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lorem",
+				"lorem	lorem"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
+	"command_palette":
+	{
+		"height": 206.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"git pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git re",
+				"Git: Add Remote"
+			],
+			[
+				"git i",
+				"Git: Init"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Add Remote"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"ini",
+				"Git: Init"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"git add re",
+				"Git: Add Remote"
+			],
+			[
+				"git add",
+				"Git: Add Remote"
+			],
+			[
+				"gstatus",
+				"Git: Status"
+			],
+			[
+				"gini",
+				"Git: Init"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: input-icon-right"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 318.0,
+		"history":
+		[
+			"sudo install bundle",
+			"bundle install",
+			"sudo bundle install",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-faqs.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-home.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/footer.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/js/functions.js",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/functions.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_featured-products.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/inc/featured-products.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_header.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-specifications.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/css/screen.css",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_main.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/sidebar.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/single-product.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/inc/products.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-product-manuals.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_misc.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_products.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/js/flexslider.js",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_testimonials.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/inc/testimonials.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-testimonials.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_footer.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_layouts.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/_general.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-contact.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-supplies.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_pre-header.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-products.php",
+		"/Users/Joshua/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_pre-footer.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_secondary.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/single.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/_reset.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/_global.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/screen.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/js/fitvids.js",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/header.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/Gemfile",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/css/print.css",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/js/jquery.js",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/page-about.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/partials/_featured-slides.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/inc/featured-slides.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/Guardfile",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/imagederm.sublime-project",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/searchform.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/style.css",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/imagederm/a/sass/print.scss",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/etdg-bootstrap/partials/content.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/etdg-bootstrap/page.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-content/themes/etdg-bootstrap/header.php",
+		"/Users/Joshua/Work/Imagederm/dev/wp-config.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_main.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_mission.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_layouts.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_nutrition-tips.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_weight-management.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_services.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/footer.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/header.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/js/functions.js",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_header.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/js/lettering.js",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_footer.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/services.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_gallery.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/page-about.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/gallery.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/js/fancybox.js",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/functions.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/page-photos.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/page-yoga-life.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/page-contact.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/weight-management.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/links.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/featured.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/testimonials.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/page-home.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_links.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/_general.scss",
+		"/Users/Joshua/Desktop/alexcurtis.sql",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_pre-footer.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/contact-alex.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/additional-information.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/secondary-nav.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_secondary.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_testimonials.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_featured.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/_reset.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/nutrition-tips.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/js/mixitup.js",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/screen.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_management.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/_global.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_tips.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/css/screen.css",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/js/flexslider.js",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/page-healthy-living.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/page.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/home/page-home.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/home/template-home.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/sidebar.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/inc/navigation.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/Guardfile",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/partials/_intro.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/css/print.css",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/single.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/searchform.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/search.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/index.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/comments.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/404.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/archive.php",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/a/sass/print.scss",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/alexcurtis.sublime-project",
+		"/Users/Joshua/Work/Alex Curtis/dev/wp-content/themes/alexcurtis/style.css",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/sass/partials/_footer.scss",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/sass/_general.scss",
+		"/Users/Joshua/Work/Bloom Design/dev/craft/templates/_layout.html",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/sass/partials/_header.scss",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/js/functions.js",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/js/matchmedia.js",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/js/picturefill.js",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/js/selectivizr.js",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/js/modernizr.js",
+		"/Users/Joshua/Work/Bloom Design/dev/html/a/js/jquery.js",
+		"/Users/Joshua/Work/Bloom Design/dev/craft/templates/index.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"image",
+			"link",
+			"repeater_field_name",
+			"820px",
+			" ",
+			"640px",
+			"slide_small",
+			"repeater_field_name",
+			"700px",
+			"800px",
+			"840px",
+			"860px",
+			"testimonial_quote",
+			"testimonial_headline",
+			"240/219",
+			"170/155",
+			"#",
+			"WebFont",
+			"'",
+			"bitter-regular",
+			"form",
+			"480px",
+			"460px",
+			"border-radius",
+			"border",
+			"image_url",
+			"thumbnail",
+			"select",
+			"900px",
+			"1100px",
+			"440px",
+			"940px",
+			"960px",
+			"1000px",
+			"cursor",
+			"480px",
+			"500px",
+			"nature",
+			"\"Bitter\", Georgia, \"Times New Roman\", Times, serif",
+			"200/200",
+			"link",
+			"1400/580",
+			"tune",
+			"Search",
+			"search",
+			"|",
+			"max-width",
+			"min-width: 840px",
+			"border-radius",
+			"carousel",
+			"any",
+			"view-more",
+			"filter",
+			"bree",
+			"lv_accreditations",
+			"proper",
+			"retail",
+			"view-more",
+			"team_role",
+			"linkedin",
+			"market",
+			"role-type",
+			"expertise",
+			"team_role",
+			"roles",
+			"orange-light",
+			"orange-lighter",
+			"min-width: 680px",
+			"max-wid",
+			"(min-width: 600px)",
+			"(min-width: 700px)",
+			"min-width: 780px",
+			"cursor",
+			"red",
+			"services/service.php",
+			"more",
+			"300/200",
+			"secon",
+			"k-link",
+			"panel",
+			"panelbar",
+			"Text",
+			"sunless-use-credit-card",
+			"sunless-use-upgrade-dollars",
+			"radio",
+			"hostname",
+			"<div class=\"k-block\">",
+			"uppercase",
+			"label",
+			"k-block",
+			"k-header",
+			"<a href=\"/new-account/step-three.php\" class=\"k-button\">Select</a>",
+			"curren",
+			"k-button",
+			"current-",
+			"dropdown",
+			"k-block",
+			"input",
+			"k-textbox",
+			"go-to",
+			"members-only",
+			"button",
+			"<div class=\"vcard\">",
+			"vcard",
+			"more-salon-info",
+			"block",
+			"white",
+			"sign-out",
+			"#window",
+			"small",
+			".members-only",
+			"form",
+			"k-dropdown",
+			"day",
+			"k-block",
+			"k-button",
+			"k-button-",
+			"content",
+			"img",
+			"<div class=\"section\">",
+			"sublime",
+			"projects-nav",
+			"related-project",
+			"services-l",
+			"ul",
+			"jquery"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"400/300",
+			"<a href=\"/dashboard/\" class=\"k-button\">Select</a>",
+			"<div class=\"individual-location vcard\">",
+			"<div class=\"section-wrap\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 175.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 138.0
+	},
+	"output.git-init":
+	{
+		"height": 138.0
+	},
+	"output.git-push":
+	{
+		"height": 254.0
+	},
+	"output.git-remote":
+	{
+		"height": 138.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 291.0
+	},
+	"project": "imagederm.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"foote",
+				"footer.php"
+			],
+			[
+				"main",
+				"a/sass/partials/_main.scss"
+			],
+			[
+				"gen",
+				"a/sass/_general.scss"
+			],
+			[
+				"gener",
+				"a/sass/_general.scss"
+			],
+			[
+				"gern",
+				"a/sass/_general.scss"
+			],
+			[
+				"funct",
+				"a/js/functions.js"
+			],
+			[
+				"genr",
+				"a/sass/_general.scss"
+			],
+			[
+				"global",
+				"a/sass/_global.scss"
+			],
+			[
+				"pre",
+				"a/sass/partials/_pre-footer.scss"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"foo",
+				"alexcurtis/footer.php"
+			],
+			[
+				"lay",
+				"alexcurtis/a/sass/partials/_layouts.scss"
+			],
+			[
+				"function",
+				"alexcurtis/a/js/functions.js"
+			],
+			[
+				"flex",
+				"alexcurtis/a/js/flexslider.js"
+			],
+			[
+				"function.js",
+				"alexcurtis/a/js/functions.js"
+			],
+			[
+				"fun",
+				"alexcurtis/a/js/functions.js"
+			],
+			[
+				"fle",
+				"a/js/flexslider.js"
+			],
+			[
+				"layouts",
+				"a/sass/partials/_layouts.scss"
+			],
+			[
+				"rese",
+				"a/sass/_reset.scss"
+			],
+			[
+				"foot",
+				"a/sass/partials/_footer.scss"
+			],
+			[
+				"flash",
+				"a/sass/partials/_flashcards.scss"
+			],
+			[
+				"secondary",
+				"a/sass/partials/_secondary.scss"
+			],
+			[
+				"team",
+				"templates/default_site/about.group/team.html"
+			],
+			[
+				"utilities",
+				"a/sass/partials/_utilities.scss"
+			],
+			[
+				"hea",
+				"a/sass/partials/_header.scss"
+			],
+			[
+				"uti",
+				"a/sass/partials/_utilities.scss"
+			],
+			[
+				"genera",
+				"a/sass/_general.scss"
+			],
+			[
+				"main.",
+				"a/sass/partials/_main.scss"
+			],
+			[
+				"header",
+				"a/sass/partials/_header.scss"
+			],
+			[
+				"mis",
+				"a/sass/partials/_misc.scss"
+			],
+			[
+				"month",
+				"tanning/monthly-membership.php"
+			],
+			[
+				"forms",
+				"a/sass/partials/_forms.scss"
+			],
+			[
+				"dashboard",
+				"dashboard/index.php"
+			],
+			[
+				"edit-pro",
+				"profile/edit-profile-information.php"
+			],
+			[
+				"new-account",
+				"new-account/step-one.php"
+			],
+			[
+				"edit-pa",
+				"profile/edit-password.php"
+			],
+			[
+				"pay",
+				"dashboard/payment-method.php"
+			],
+			[
+				"edit-bill",
+				"profile/edit-billing-information.php"
+			],
+			[
+				"check-in-step-three",
+				"dashboard/check-in-step-three.php"
+			],
+			[
+				"index",
+				"profile/index.php"
+			],
+			[
+				"se",
+				"a/sass/partials/_section.scss"
+			],
+			[
+				"head",
+				"a/sass/partials/_header.scss"
+			],
+			[
+				"inde",
+				"dashboard/index.php"
+			],
+			[
+				"dashboard/index.php",
+				"dashboard/index.php"
+			],
+			[
+				"step-three",
+				"new-account/step-three-continued.php"
+			],
+			[
+				"misc",
+				"a/sass/partials/_misc.scss"
+			],
+			[
+				"scren",
+				"a/sass/screen.scss"
+			],
+			[
+				"scre",
+				"a/css/screen.css"
+			],
+			[
+				"section",
+				"a/sass/partials/_section.scss"
+			],
+			[
+				"for",
+				"a/sass/partials/_forms.scss"
+			],
+			[
+				"nav.s",
+				"a/sass/partials/_nav.scss"
+			],
+			[
+				"nav",
+				"a/inc/nav.php"
+			],
+			[
+				"nav.",
+				"a/sass/partials/_nav.scss"
+			],
+			[
+				"step-four",
+				"new-account/step-four.php"
+			],
+			[
+				"succ",
+				"new-account/success.php"
+			],
+			[
+				"step-two-con",
+				"new-account/step-two-continued.php"
+			],
+			[
+				"step-two",
+				"new-account/step-two.php"
+			],
+			[
+				"elem",
+				"elements.php"
+			],
+			[
+				"step-one",
+				"new-account/step-one.php"
+			],
+			[
+				"step-three-",
+				"new-account/step-three-continued.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"invit",
+				"new-account/step-one-invitation.php"
+			],
+			[
+				"new-account/step-two",
+				"new-account/step-two-continued.php"
+			],
+			[
+				"form",
+				"a/sass/partials/_forms.scss"
+			],
+			[
+				"in",
+				"dashboard/index.php"
+			],
+			[
+				"scr",
+				"a/css/screen.css"
+			],
+			[
+				"_head",
+				"a/sass/partials/_header.scss"
+			],
+			[
+				"noti",
+				"dashboard/notifications.php"
+			],
+			[
+				"stre",
+				"new-account/step-three.php"
+			],
+			[
+				"step-one-in",
+				"new-account/step-one-invitation.php"
+			],
+			[
+				"step-three-con",
+				"new-account/step-three-continued.php"
+			],
+			[
+				"step-two-co",
+				"new-account/step-two-continued.php"
+			],
+			[
+				"",
+				"index.php"
+			],
+			[
+				"eleme",
+				"elements.php"
+			],
+			[
+				"step-thr",
+				"new-account/step-three.php"
+			],
+			[
+				"ele",
+				"elements.php"
+			],
+			[
+				"screen",
+				"a/css/screen.css"
+			],
+			[
+				"_sec",
+				"a/sass/partials/_section.scss"
+			],
+			[
+				"scree",
+				"a/css/screen.css"
+			],
+			[
+				"_he",
+				"a/sass/partials/_header.scss"
+			],
+			[
+				"f",
+				"a/inc/footer.php"
+			],
+			[
+				"ge",
+				"a/sass/_general.scss"
+			],
+			[
+				"single",
+				"single-services.php"
+			],
+			[
+				"feat",
+				"a/inc/featured.php"
+			],
+			[
+				"_featu",
+				"a/sass/partials/_featured.scss"
+			],
+			[
+				"_pre",
+				"a/sass/partials/_pre-footer.scss"
+			],
+			[
+				"_main",
+				"a/sass/partials/_main.scss"
+			],
+			[
+				"_se",
+				"a/sass/partials/_secondary.scss"
+			],
+			[
+				"_header",
+				"a/sass/partials/_header.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Work/Shake Rattle and Stage/dev/shakerattleandstage.sublime-project"
+			],
+			[
+				"sun",
+				"~/Tune/Sun Tan City/dev/suntancity.sublime-project"
+			],
+			[
+				"su",
+				"~/Tune/Summit/templates/summit.sublime-workspace"
+			],
+			[
+				"sunt",
+				"~/Tune/Sun Tan City/dev/suntancity.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

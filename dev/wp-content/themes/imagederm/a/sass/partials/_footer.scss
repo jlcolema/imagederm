@@ -1,0 +1,73 @@
+
+/*-------------------------------------------
+	Footer
+-------------------------------------------*/
+
+
+#footer {
+
+	padding: 30px 0;
+	@include font-size(12);
+	line-height: (16/12) + em;
+	border-top: 1px solid rgb(20, 53, 133);
+	@include box-shadow(0 1px 0 rgb(3, 10, 27) inset);
+	color: rgb(203, 224, 255);
+	background: rgb(7, 21, 57) url(../img/footer-background.png);
+
+	.wrap {
+
+		@media screen and (min-width: 780px) {
+
+			@include group;
+
+		}
+
+	}
+
+}
+
+		#copyright {
+
+			@media screen and (min-width: 780px) {
+
+				float: left;
+				margin: 0;
+
+			}
+
+		}
+
+		#distributed-by {
+
+			@media screen and (min-width: 780px) {
+
+				float: left;
+				margin: 0;
+				padding: 0 0 0 5px;
+
+			}
+
+		}
+
+		#created-by {
+
+			@media screen and (min-width: 780px) {
+
+				float: right;
+				text-align: right;
+
+			}
+
+			a {
+
+				color: rgb(203, 224, 255);
+
+				&:hover {
+
+					text-decoration: underline;
+
+				}
+
+			}
+
+		}
